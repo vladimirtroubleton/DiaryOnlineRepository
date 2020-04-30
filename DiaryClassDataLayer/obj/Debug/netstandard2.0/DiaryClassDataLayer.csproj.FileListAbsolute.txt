@@ -1,0 +1,11 @@
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.deps.json
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.dll
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.AssemblyInfoInputs.cache
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.AssemblyInfo.cs
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.pdb
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.dll
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.pdb
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csprojAssemblyReference.cache
+D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csproj.CopyComplete

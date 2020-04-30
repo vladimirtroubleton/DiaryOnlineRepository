@@ -1,0 +1,8 @@
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.deps.json
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.AssemblyInfoInputs.cache
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.AssemblyInfo.cs
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
+D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.csprojAssemblyReference.cache

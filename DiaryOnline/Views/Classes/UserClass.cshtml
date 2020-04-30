@@ -1,0 +1,71 @@
+﻿@model DiaryClassDataLayer.ViewModels.NavigationViewModel
+
+@{
+    ViewData["Title"] = "UserClass";
+}
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">
+                        Название класса:
+                    </div>
+                    <div class="card-title">
+                        @Model.Class.ClassName
+                    </div>
+                    <div class="card-title">
+                        Классный руководитель
+                    </div>
+                    <div class="card-title">
+                        @Model.Class.ClassLead.Name @Model.Class.ClassLead.Surname
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                @foreach (var student in Model.UsersInClass)
+                {
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Имя ученика
+                            </div>
+                            <div class="card-title">
+                                @student.Name @student.Surname
+                            </div>
+                            <div class="card-title">
+                                Электронная почта ученика
+                            </div>
+                            <div class="card-title">
+                                @student.Email
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-6">
+                @foreach (var teacher in Model.TeachersInClassInClass)
+                {
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Имя учителя
+                            </div>
+                            <div class="card-title">
+                                @teacher.Name @teacher.Surname
+                            </div>
+                            <div class="card-title">
+                                Электронная почта учителя
+                            </div>
+                            <div class="card-title">
+                                @teacher.Email
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<DiaryClassDataLayer.ViewModels.ClassViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <div class="container">
+        <h1>Выберите свой класс</h1>
+
+        <p>
+            <a asp-action="CreateClass">Create New</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ClassName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().ClassLead)
+                    </th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ClassName)
+                    </td>
+                    <td>
+                        <a href="/Account/Profile/@item.ClassLead.Id">@item.ClassLead.Name @item.ClassLead.Surname</a>
+                    </td>
+                    <td>
+                        <a href="/Classes/AddUserToClass?classId=@item.ClassId" class="btn btn-outline-success">Присоеденится к классу</a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
