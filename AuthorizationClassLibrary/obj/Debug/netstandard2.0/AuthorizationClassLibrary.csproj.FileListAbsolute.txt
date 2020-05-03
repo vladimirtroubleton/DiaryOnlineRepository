@@ -6,3 +6,12 @@ D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.
 D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.dll
 D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
 D:\Projects\DiaryOnlineProject\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.csprojAssemblyReference.cache
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.deps.json
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.csprojAssemblyReference.cache
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.csproj.CoreCompileInputs.cache
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.AssemblyInfoInputs.cache
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.AssemblyInfo.cs
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Release\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.pdb

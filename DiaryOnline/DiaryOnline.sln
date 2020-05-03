@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiaryOnlineAdmin", "..\Diar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationClassLibrary", "..\AuthorizationClassLibrary\AuthorizationClassLibrary.csproj", "{1C5FF76C-048D-42D4-B59B-A5F44479CB19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiaryClassDataLayer", "..\DiaryClassDataLayer\DiaryClassDataLayer.csproj", "{42E1A0C9-FA67-41EF-8294-6675150BFF49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiaryClassDataLayer", "..\DiaryClassDataLayer\DiaryClassDataLayer.csproj", "{42E1A0C9-FA67-41EF-8294-6675150BFF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalTablesDataLayer", "..\JournalTablesDataLayer\JournalTablesDataLayer.csproj", "{91EC5586-7019-4AA8-8124-DDBF21A4D4DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{42E1A0C9-FA67-41EF-8294-6675150BFF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E1A0C9-FA67-41EF-8294-6675150BFF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E1A0C9-FA67-41EF-8294-6675150BFF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EC5586-7019-4AA8-8124-DDBF21A4D4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EC5586-7019-4AA8-8124-DDBF21A4D4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EC5586-7019-4AA8-8124-DDBF21A4D4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EC5586-7019-4AA8-8124-DDBF21A4D4DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

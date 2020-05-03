@@ -9,3 +9,15 @@ D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\Auth
 D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
 D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csprojAssemblyReference.cache
 D:\Projects\DiaryOnlineProject\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csproj.CopyComplete
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.deps.json
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.dll
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.pdb
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csprojAssemblyReference.cache
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csproj.CoreCompileInputs.cache
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.AssemblyInfoInputs.cache
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.AssemblyInfo.cs
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.csproj.CopyComplete
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.dll
+D:\Release\DiaryOnlineRepository\DiaryClassDataLayer\obj\Debug\netstandard2.0\DiaryClassDataLayer.pdb

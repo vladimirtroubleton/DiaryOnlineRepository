@@ -1,0 +1,14 @@
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\JournalTablesDataLayer.deps.json
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\JournalTablesDataLayer.dll
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\JournalTablesDataLayer.pdb
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.dll
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.dll
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.pdb
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.csprojAssemblyReference.cache
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.csproj.CoreCompileInputs.cache
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.AssemblyInfoInputs.cache
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.AssemblyInfo.cs
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.csproj.CopyComplete
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.dll
+D:\Release\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.pdb

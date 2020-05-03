@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AuthorizationClassLibrary\AuthorizationClassLibrary.csproj" />
     <ProjectReference Include="..\DiaryClassDataLayer\DiaryClassDataLayer.csproj" />
+    <ProjectReference Include="..\JournalTablesDataLayer\JournalTablesDataLayer.csproj" />
   </ItemGroup>
 
 
