@@ -5011,19 +5011,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vladimirtroubleton\\.nuget\\packages\\": {}
+    "C:\\Users\\Николай\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj",
+      "projectUniqueName": "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj",
       "projectName": "AuthorizationClassLibrary",
-      "projectPath": "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj",
-      "packagesPath": "C:\\Users\\vladimirtroubleton\\.nuget\\packages\\",
-      "outputPath": "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\obj\\",
+      "projectPath": "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\Николай\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vladimirtroubleton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Николай\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5080,7 +5080,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8569,19 +8569,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vladimirtroubleton\\.nuget\\packages\\": {}
+    "C:\\Users\\Николай\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Release\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
+      "projectUniqueName": "D:\\Projects\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
       "projectName": "DiaryOnlineAdmin",
-      "projectPath": "D:\\Release\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
-      "packagesPath": "C:\\Users\\vladimirtroubleton\\.nuget\\packages\\",
-      "outputPath": "D:\\Release\\DiaryOnlineRepository\\DiaryOnlineAdmin\\obj\\",
+      "projectPath": "D:\\Projects\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
+      "packagesPath": "C:\\Users\\Николай\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\DiaryOnlineRepository\\DiaryOnlineAdmin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vladimirtroubleton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Николай\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8594,8 +8594,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj": {
-              "projectPath": "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj"
+            "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj": {
+              "projectPath": "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj"
             }
           }
         }
@@ -8640,7 +8640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

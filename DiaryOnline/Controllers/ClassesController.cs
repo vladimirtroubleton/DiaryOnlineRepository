@@ -6,6 +6,7 @@ using AuthorizationClassLibrary.AuthViewModels;
 using DiaryClassDataLayer.ModelBuilders;
 using DiaryClassDataLayer.Models;
 using DiaryClassDataLayer.Repositories;
+using DiaryClassDataLayer.ViewModels;
 using DiaryOnlineAdmin.ModelBuilders;
 using DiaryOnlineAdmin.Repositories;
 using Microsoft.AspNetCore.Authorization;
@@ -37,7 +38,25 @@ namespace DiaryOnline.Controllers
                 switch (currentUser.RoleName) {
                     case "Учитель":
                         {
-                            return View("TeacherClasses");
+                            var navigationViewModels = new List<NavigationViewModel>();
+                            var classesId = classesRepository.GetClassesIdsByUserId(currentUser.Id);
+                            foreach (var classId in classesId)
+                            {
+                                var classModel = classModelBuilder.GetClassViewModel(classesRepository.GetClassById(classId));
+                                var classNavigationRecords = classesRepository.GetClassesNavigationModels(classId);
+                                var usersModelsInClass = usersRepository.GetListUsersByIds(classNavigationRecords.Select(x => x.UserId).ToArray());
+
+                                var usersViewModelsInClass = usersModelBuilder.BuildUserViewModels(usersModelsInClass);
+
+                                var teachers = usersViewModelsInClass.Where(x => x.RoleName == "Учитель").ToArray();
+                                var students = usersViewModelsInClass.Where(x => x.RoleName == "Ученик").ToArray();
+                                navigationViewModels.Add(classModelBuilder.getNavigationClassModel(classModel, teachers, students));
+                            }
+                         
+
+                        
+
+                            return View("TeacherClasses" , navigationViewModels.ToArray());
                         }
                     case "Ученик":
                         {

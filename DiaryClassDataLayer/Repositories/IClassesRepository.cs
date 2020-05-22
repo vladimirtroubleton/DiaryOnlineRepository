@@ -15,6 +15,7 @@ namespace DiaryClassDataLayer.Repositories
         ClassModel GetClassById(int id);
 
         int GetClassIdByUserId(Guid id);
+
         int[] GetClassesIdsByUserId(Guid id);
         ClassModel[] GetClasses();
         ClassesNavigationModel[] GetClassesNavigationModels(int classId);

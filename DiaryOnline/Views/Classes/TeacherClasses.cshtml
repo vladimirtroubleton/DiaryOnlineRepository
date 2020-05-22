@@ -1,0 +1,24 @@
+﻿@model IEnumerable<DiaryClassDataLayer.ViewModels.NavigationViewModel>
+
+@{
+    ViewData["Title"] = "TeacherClasses";
+}
+
+    <div class="container">
+        @foreach (var navigation in Model)
+        {
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            @navigation.Class.ClassName
+                        </div>
+                        <div class="card-title">
+                            @navigation.Class.ClassLead.Name @navigation.Class.ClassLead.Surname
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
