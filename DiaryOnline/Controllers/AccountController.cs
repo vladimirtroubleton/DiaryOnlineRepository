@@ -25,17 +25,21 @@ namespace DiaryOnline.Controllers
         private readonly ICheckDataUtils checkDataUtils;
         private readonly IUsersModelBuilder usersModelBuilder;
         private readonly IRolesRepository rolesRepository;
+        private ICurrentUserUtil currentUtil;
 
-        public AccountController(ILoginUtil loginUtil, IUsersRepository usersRepository, ICheckDataUtils checkDataUtils, IUsersModelBuilder usersModelBuilder, IRolesRepository rolesRepository)
+        public AccountController(ILoginUtil loginUtil, IUsersRepository usersRepository, ICheckDataUtils checkDataUtils, IUsersModelBuilder usersModelBuilder, IRolesRepository rolesRepository, ICurrentUserUtil currentUtil)
         {
             this.loginUtil = loginUtil;
             this.usersRepository = usersRepository;
             this.checkDataUtils = checkDataUtils;
             this.usersModelBuilder = usersModelBuilder;
             this.rolesRepository = rolesRepository;
+            this.currentUtil = currentUtil;
         }
 
-           [HttpGet]
+        private UserViewModel currentUser;
+
+        [HttpGet]
             public IActionResult Login()
             {
 
@@ -123,5 +127,10 @@ namespace DiaryOnline.Controllers
                 return View();
             }
 
+            public async Task<IActionResult> Profile()
+            {
+                currentUser = await currentUtil.UserCurrent(User.Identity.Name);
+                return View(currentUser);
+            }
     }
 }

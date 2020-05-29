@@ -11,6 +11,7 @@ using AuthorizationClassLibrary.AuthModels;
 using DiaryOnlineAdmin.Repositories;
 using DiaryOnlineAdmin.ModelBuilders;
 using AuthorizationClassLibrary.AuthViewModels;
+using AuthorizationClassLibrary.AuthUtils;
 
 namespace DiaryOnline.Controllers
 {
@@ -19,38 +20,30 @@ namespace DiaryOnline.Controllers
     {
         private readonly IUsersRepository usersRepository;
         private readonly IUsersModelBuilder usersModelBuilder;
+        private ICurrentUserUtil currentUtil;
 
         private UserViewModel currentUser;
-        public HomeController(IUsersRepository usersRepository , IUsersModelBuilder usersModelBuilder) 
+
+        public HomeController(IUsersRepository usersRepository, IUsersModelBuilder usersModelBuilder, ICurrentUserUtil currentUtil)
         {
             this.usersRepository = usersRepository;
             this.usersModelBuilder = usersModelBuilder;
+            this.currentUtil = currentUtil;
         }
 
-        
-      
-
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-           
-            UserCurrent();
+
+            currentUser =await currentUtil.UserCurrent(User.Identity.Name);
             ViewBag.CurrentUser = currentUser;
             return View();
         }
 
-        public IActionResult Profile()
-        {
-            UserCurrent();
-            return View(currentUser);
-        }
+       
 
       
 
-        private Task UserCurrent()
-        {
-            currentUser =usersModelBuilder.BuildUserViewModel(usersRepository.GetUserById(Guid.Parse(User.Identity.Name)));
-            return Task.CompletedTask;
-        }
+      
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

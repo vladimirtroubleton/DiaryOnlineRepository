@@ -21,14 +21,11 @@
                         @if (User.Identity.Name != null)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Profile">Профиль</a>
+                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Profile">Профиль</a>
                             </li>
 
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Classes" asp-action="Index">Класс</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="UserTasks">Задачи</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " asp-area="" asp-controller="Account" asp-action="OutUserAtSystem">Выйти</a>

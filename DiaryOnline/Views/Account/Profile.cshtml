@@ -1,0 +1,21 @@
+﻿@model AuthorizationClassLibrary.AuthViewModels.UserViewModel
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+    <div class="container">
+        <div class="jumbotron card card-image" style="background: linear-gradient(45deg, #EECFBA, #C5DDE8);">
+            <div class="text-white text-center py-5 px-4">
+                <div>
+                    <h2 class="card-title h1-responsive pt-3 mb-5 font-bold text-black-50"><strong>@Model.Name @Model.Surname</strong></h2>
+                    <p class="mx-5 mb-5 ">
+                        
+                            <div class="card-text text-black-50">@Model.RoleName</div>
+                            <div class="card-text text-black-50">@Model.Email</div>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>

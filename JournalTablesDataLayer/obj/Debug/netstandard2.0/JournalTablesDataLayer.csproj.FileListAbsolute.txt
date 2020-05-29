@@ -20,7 +20,6 @@ D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.
 D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\DiaryClassDataLayer.pdb
 D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
 D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.csprojAssemblyReference.cache
-D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.csproj.CoreCompileInputs.cache
 D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.AssemblyInfoInputs.cache
 D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.AssemblyInfo.cs
 D:\Projects\DiaryOnlineRepository\JournalTablesDataLayer\obj\Debug\netstandard2.0\JournalTablesDataLayer.csproj.CopyComplete

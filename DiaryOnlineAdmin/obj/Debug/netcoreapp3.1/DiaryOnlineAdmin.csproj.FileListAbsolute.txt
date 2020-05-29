@@ -292,6 +292,9 @@ D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\static
 D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.dll
 D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.pdb
 D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.genruntimeconfig.cache
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -310,7 +313,6 @@ D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Micro
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -399,13 +401,11 @@ D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\ja\Mi
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
@@ -414,7 +414,8 @@ D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\runti
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\AuthorizationClassLibrary.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\AuthorizationClassLibrary.pdb
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.csprojAssemblyReference.cache
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.csproj.CoreCompileInputs.cache
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\staticwebassets\DiaryOnlineAdmin.StaticWebAssets.Manifest.cache
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\staticwebassets\DiaryOnlineAdmin.StaticWebAssets.xml
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.RazorAssemblyInfo.cache
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.RazorAssemblyInfo.cs
@@ -435,8 +436,5 @@ D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Diary
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.RazorTargetAssemblyInfo.cs
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.Views.pdb
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.csproj.CopyComplete
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\staticwebassets\DiaryOnlineAdmin.StaticWebAssets.Manifest.cache
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\staticwebassets\DiaryOnlineAdmin.StaticWebAssets.xml
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.pdb
-D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.genruntimeconfig.cache

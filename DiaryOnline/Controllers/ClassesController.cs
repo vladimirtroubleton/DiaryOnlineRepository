@@ -7,6 +7,7 @@ using DiaryClassDataLayer.ModelBuilders;
 using DiaryClassDataLayer.Models;
 using DiaryClassDataLayer.Repositories;
 using DiaryClassDataLayer.ViewModels;
+using DiaryOnline.Models;
 using DiaryOnlineAdmin.ModelBuilders;
 using DiaryOnlineAdmin.Repositories;
 using Microsoft.AspNetCore.Authorization;
@@ -38,25 +39,31 @@ namespace DiaryOnline.Controllers
                 switch (currentUser.RoleName) {
                     case "Учитель":
                         {
-                            var navigationViewModels = new List<NavigationViewModel>();
-                            var classesId = classesRepository.GetClassesIdsByUserId(currentUser.Id);
-                            foreach (var classId in classesId)
+                            var classDict = new Dictionary<ClassViewModel, ClassesNavigationModel[]>();
+
+                            var classes = classesRepository.GetClasses();
+                            var classesView = classModelBuilder.GetClassViewModels(classes);
+                            foreach (var clas in classesView)
                             {
-                                var classModel = classModelBuilder.GetClassViewModel(classesRepository.GetClassById(classId));
-                                var classNavigationRecords = classesRepository.GetClassesNavigationModels(classId);
-                                var usersModelsInClass = usersRepository.GetListUsersByIds(classNavigationRecords.Select(x => x.UserId).ToArray());
-
-                                var usersViewModelsInClass = usersModelBuilder.BuildUserViewModels(usersModelsInClass);
-
-                                var teachers = usersViewModelsInClass.Where(x => x.RoleName == "Учитель").ToArray();
-                                var students = usersViewModelsInClass.Where(x => x.RoleName == "Ученик").ToArray();
-                                navigationViewModels.Add(classModelBuilder.getNavigationClassModel(classModel, teachers, students));
+                                classDict.Add(clas, classesRepository.GetClassesNavigationModels(clas.ClassId));
                             }
-                         
+                            var inClasses = new List<ClassViewModel>();
+                            var unClasses = new List<ClassViewModel>();
+                            foreach (var item in classDict)
+                            {
+                                if (item.Value.Select(x=> x.UserId).Contains(Guid.Parse(User.Identity.Name)))
+                                {
+                                    inClasses.Add(item.Key);
+                                }
+                                else
+                                {
+                                    unClasses.Add(item.Key);
+                                }
+                            }
 
-                        
+                           
 
-                            return View("TeacherClasses" , navigationViewModels.ToArray());
+                            return View("TeacherClasses" , new ClassesInUnModel { InClass = inClasses.ToArray() , UnClass = unClasses.ToArray()});
                         }
                     case "Ученик":
                         {
@@ -87,7 +94,25 @@ namespace DiaryOnline.Controllers
                 return View(classModelBuilder.GetClassViewModels(classes));
             }
         }
+        [HttpGet]
+        public IActionResult GetTeacherClass(int сlassId)
+        {
+            
+                var classModel = classesRepository.GetClassById(сlassId);
+                var classViewModel = classModelBuilder.GetClassViewModel(classesRepository.GetClassById(classModel.Id));
+                var classNavigationRecords = classesRepository.GetClassesNavigationModels(сlassId);
+                var usersModelsInClass = usersRepository.GetListUsersByIds(classNavigationRecords.Select(x => x.UserId).ToArray());
 
+                var usersViewModelsInClass = usersModelBuilder.BuildUserViewModels(usersModelsInClass);
+
+                var teachers = usersViewModelsInClass.Where(x => x.RoleName == "Учитель").ToArray();
+                var students = usersViewModelsInClass.Where(x => x.RoleName == "Ученик").ToArray();
+
+                var navigationModel = classModelBuilder.getNavigationClassModel(classViewModel, teachers, students);
+                return View(navigationModel);
+
+            
+        }
 
         [Authorize(Roles = "teacher True")]
         [HttpGet]

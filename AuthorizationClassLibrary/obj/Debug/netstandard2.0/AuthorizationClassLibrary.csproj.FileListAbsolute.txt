@@ -19,7 +19,6 @@ D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\bin\Debug\netstandar
 D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.dll
 D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\bin\Debug\netstandard2.0\AuthorizationClassLibrary.pdb
 D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.csprojAssemblyReference.cache
-D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.csproj.CoreCompileInputs.cache
 D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.AssemblyInfoInputs.cache
 D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.AssemblyInfo.cs
 D:\Projects\DiaryOnlineRepository\AuthorizationClassLibrary\obj\Debug\netstandard2.0\AuthorizationClassLibrary.dll

@@ -1,0 +1,52 @@
+﻿@model DiaryClassDataLayer.ViewModels.NavigationViewModel
+
+@{
+    ViewData["Title"] = "GetTeacherClass";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="card text-center">
+                <div class="card-body">
+                    <div class="card-title"><h4>  @Model.Class.ClassName</h4></div>
+                    <div class="card-title"><h4>  @Model.Class.ClassLead.Name @Model.Class.ClassLead.Surname</h4></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-6 text-center">
+            <h4>Учителя</h4>
+            @foreach (var item in Model.TeachersInClassInClass)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            @item.Name @item.Surname
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="col-6 text-center">
+            <h4>Ученики</h4>
+            @foreach (var item in Model.UsersInClass)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            @item.Name @item.Surname
+                        </div>
+                        <a href="#">Поставить оценку</a>
+                    </div>
+                </div>
+
+            }
+        </div>
+
+    </div>
+</div>

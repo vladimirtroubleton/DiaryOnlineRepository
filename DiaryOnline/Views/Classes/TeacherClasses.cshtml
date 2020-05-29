@@ -1,24 +1,53 @@
-﻿@model IEnumerable<DiaryClassDataLayer.ViewModels.NavigationViewModel>
+﻿@model DiaryOnline.Models.ClassesInUnModel
 
 @{
     ViewData["Title"] = "TeacherClasses";
 }
 
+
     <div class="container">
-        @foreach (var navigation in Model)
-        {
-            <div class="row">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">
-                            @navigation.Class.ClassName
-                        </div>
-                        <div class="card-title">
-                            @navigation.Class.ClassLead.Name @navigation.Class.ClassLead.Surname
+        <p>
+            <a class="btn btn-outline-success" asp-action="CreateClass">Добавить класс</a>
+        </p>
+        <div class="row">
+            @foreach (var clas in Model.InClass)
+            {
+                <div class="col-12 mx-auto text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                @clas.ClassName
+                            </div>
+                            <div class="card-title">
+                                @clas.ClassLead.Name  @clas.ClassLead.Surname
+                            </div>
+                            <a href="/Classes/GetTeacherClass?сlassId=@clas.ClassId" class="btn btn-outline-success">Перейти к классу</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        }
-
+            }
+        </div>
+        <hr />
+        <div class="col-12 text-center">
+            <h4>Классы в которых вы не состоите</h4>
+        </div>
+        <hr />
+        <div class="row">
+            @foreach (var clas in Model.UnClass)
+            {
+                <div class="col-12 mx-auto text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                @clas.ClassName
+                            </div>
+                            <div class="card-title">
+                                @clas.ClassLead.Name  @clas.ClassLead.Surname
+                            </div>
+                            <a href="/Classes/AddUserToClass?classId=@clas.ClassId" class="btn btn-outline-success">Присоеденится к классу</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
     </div>

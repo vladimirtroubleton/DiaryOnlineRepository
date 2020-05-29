@@ -9,6 +9,7 @@ namespace DiaryClassDataLayer.Models
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name ="Название класса")]
         public string ClassName { get; set; }
         public Guid ClassLeadId { get; set; }
     }
