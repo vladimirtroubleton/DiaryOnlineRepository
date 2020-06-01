@@ -438,3 +438,7 @@ D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Diary
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.csproj.CopyComplete
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\DiaryOnlineAdmin.pdb
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.dll
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.pdb
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Subject\Subjects.cshtml.g.cs
+D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Subject\AddSubject.cshtml.g.cs

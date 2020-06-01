@@ -52,6 +52,7 @@ namespace DiaryOnline
             services.AddScoped<IClassesRepository, ClassesRepository>();
             services.AddScoped<IClassModelBuilder, ClassModelBuilder>();
             services.AddScoped<ICurrentUserUtil, CurrentUserUtil>();
+            services.AddScoped<ISubjectsRepository, SubjectsRepository>();
 
             services.AddControllersWithViews();
         }

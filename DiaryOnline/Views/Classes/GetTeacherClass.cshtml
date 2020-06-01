@@ -41,7 +41,7 @@
                         <div class="card-title">
                             @item.Name @item.Surname
                         </div>
-                        <a href="#">Поставить оценку</a>
+                        <a href="/Journal/AddRating?userId=@item.Id&&teacherId=@Guid.Parse(User.Identity.Name)&&classId=@Model.Class.ClassId">Поставить оценку</a>
                     </div>
                 </div>
 

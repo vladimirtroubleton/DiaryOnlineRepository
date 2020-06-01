@@ -1,0 +1,58 @@
+﻿@model DiaryClassDataLayer.Models.RatingModel
+
+@{
+    ViewData["Title"] = "AddRating";
+}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="AddRating">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                    <div class="form-group">
+                        <label asp-for="IdSubject" class="control-label"></label>
+                        <select asp-for="IdSubject" class="form-control">
+                            @foreach (var item in ViewBag.Subject)
+                            {
+                                <option value="@item.Id">@item.SubjectName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="IdSubject" class="text-danger"></span>
+                    </div>
+                   
+                    <div class="form-group">
+                        <label asp-for="Rating" class="control-label"></label>
+                        <select asp-for="Rating" class="form-control">
+                            @for (int i=2; i<6; i++)
+                            {
+                                <option value="@i">@i</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Rating" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="display:none">
+                        <label asp-for="StudentId" class="control-label"></label>
+                        <input asp-for="StudentId" class="form-control" />
+                        <span asp-validation-for="StudentId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="display:none">
+                        <label asp-for="TeacherId" class="control-label"></label>
+                        <input asp-for="TeacherId" class="form-control" />
+                        <span asp-validation-for="TeacherId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="display:none">
+                        <label asp-for="ClassId" class="control-label"></label>
+                        <input asp-for="ClassId" class="form-control" />
+                        <span asp-validation-for="ClassId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Поставить" class="btn btn-outline-warning" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+

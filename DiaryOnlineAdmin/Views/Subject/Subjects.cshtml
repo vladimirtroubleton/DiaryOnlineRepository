@@ -1,0 +1,36 @@
+﻿@model IEnumerable<DiaryClassDataLayer.Models.SubjectModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <div class="container">
+
+        <p>
+            <a class="btn btn-outline-info" asp-action="AddSubject">Добавить</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                   
+                    <th>
+                        @Html.DisplayNameFor(model => model.SubjectName)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                       
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SubjectName)
+                        </td>
+                        <td>
+                            <a href="/Subject/DeleteSubj?id=@item.Id" class="btn btn-outline-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

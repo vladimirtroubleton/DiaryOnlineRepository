@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using AuthorizationClassLibrary;
 using AuthorizationClassLibrary.AuthUtils;
 using AuthorizationClassLibrary.Repositories;
+using DiaryClassDataLayer;
+using DiaryClassDataLayer.Repositories;
 using DiaryOnlineAdmin.ModelBuilders;
 using DiaryOnlineAdmin.Repositories;
 using DiaryOnlineAdmin.Utils;
@@ -32,6 +34,7 @@ namespace DiaryOnlineAdmin
             services.AddControllersWithViews();
 
             services.AddDbContext<UsersContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DiaryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("diarycontext")));
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                            .AddCookie(options =>
@@ -46,6 +49,7 @@ namespace DiaryOnlineAdmin
             services.AddScoped<IUsersModelBuilder , UsersModelBuilder>();
             services.AddScoped<IRolesRepository , RolesRepository>();
             services.AddScoped<IAdministrationUsersUtil , AdministrationUsersUtil>();
+            services.AddScoped<ISubjectsRepository , SubjectsRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
