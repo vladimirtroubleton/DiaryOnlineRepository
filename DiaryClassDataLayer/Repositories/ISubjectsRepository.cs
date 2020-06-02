@@ -7,6 +7,7 @@ namespace DiaryClassDataLayer.Repositories
     {
         Task CreateSubj(SubjectModel subject);
         SubjectModel[] GetSubjects();
+        SubjectModel GetSubjectById(int id);
         Task RemoveSubj(int id);
     }
 }

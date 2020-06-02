@@ -27,6 +27,9 @@
                         <div class="card-title">
                             @item.Name @item.Surname
                         </div>
+                        <div class="card-title">
+                            @item.Email
+                        </div>
                     </div>
                 </div>
             }
@@ -41,7 +44,11 @@
                         <div class="card-title">
                             @item.Name @item.Surname
                         </div>
-                        <a href="/Journal/AddRating?userId=@item.Id&&teacherId=@Guid.Parse(User.Identity.Name)&&classId=@Model.Class.ClassId">Поставить оценку</a>
+                        <div class="card-title">
+                            @item.Email
+                        </div>
+                        
+                        <a href="/Journal/AddRating?userId=@item.Id&&teacherId=@Guid.Parse(User.Identity.Name)&&classId=@Model.Class.ClassId" class="btn btn-outline-danger">Поставить оценку</a>
                     </div>
                 </div>
 

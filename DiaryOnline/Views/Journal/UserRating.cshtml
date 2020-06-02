@@ -1,0 +1,66 @@
+﻿@model IEnumerable<DiaryClassDataLayer.ViewModels.RatingViewModel>
+
+@{
+    ViewData["Title"] = "UserRating";
+}
+
+    <div class="container">
+
+
+        <table class="table">
+            <thead>
+                <tr>
+
+                   
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.SubjectName)
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.StudentName)
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.TeacherName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Rating)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+
+                       
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SubjectName)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StudentName)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TeacherName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Rating)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

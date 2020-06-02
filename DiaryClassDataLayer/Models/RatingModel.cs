@@ -18,5 +18,6 @@ namespace DiaryClassDataLayer.Models
         public Guid TeacherId { get; set; }
         [Display(Name = "Выберите оценку")]
         public int Rating { get; set; }
+        public DateTime Date { get; set; }
     }
 }

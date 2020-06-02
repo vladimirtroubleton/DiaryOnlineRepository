@@ -44,5 +44,10 @@ namespace DiaryClassDataLayer.Repositories
         {
             return context.Subjects.ToArray();
         }
+
+        public SubjectModel GetSubjectById(int id)
+        {
+            return context.Subjects.Find(id);
+        }
     }
 }

@@ -625,3 +625,6 @@ D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\DiaryOnlin
 D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\DiaryOnline.dll
 D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\DiaryOnline.pdb
 D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\AddRating.cshtml.g.cs
+D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\GetRatings.cshtml.g.cs
+D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\UserRating.cshtml.g.cs
+D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\TeacherRating.cshtml.g.cs
