@@ -7,6 +7,8 @@ using System;
 using DiaryOnlineAdmin.ModelBuilders;
 using System.Threading.Tasks;
 using DiaryOnlineAdmin.Utils;
+using DiaryClassDataLayer.Repositories;
+using DiaryClassDataLayer.Models;
 
 namespace DiaryOnlineAdmin.Controllers
 {
@@ -18,18 +20,19 @@ namespace DiaryOnlineAdmin.Controllers
         private IUsersModelBuilder usersModelBuilder;
 
         private IAdministrationUsersUtil administrationUtil;
+        private IInfoRepository infoRepository;
 
-        private UserModel currentUser;
-
-
-        public HomeController(IUsersRepository usersRepository, IUsersModelBuilder usersModelBuilder, IAdministrationUsersUtil administrationUtil)
+        public HomeController(IUsersRepository usersRepository, IUsersModelBuilder usersModelBuilder, IAdministrationUsersUtil administrationUtil, IInfoRepository infoRepository)
         {
             this.usersRepository = usersRepository;
             this.usersModelBuilder = usersModelBuilder;
             this.administrationUtil = administrationUtil;
-
-
+            this.infoRepository = infoRepository;
         }
+
+        private UserModel currentUser;
+
+
 
 
         public IActionResult Index()
@@ -70,6 +73,33 @@ namespace DiaryOnlineAdmin.Controllers
             usersRepository.RemoveUser(usersRepository.GetUserById(userId));
             return RedirectToAction("Index", "Home");
 
+        }
+
+        [HttpGet]
+        public IActionResult GetInfo()
+        {
+            return View(infoRepository.GetInformations());
+        }
+
+        [HttpGet]
+        public IActionResult CreateInfo()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateInfo( InformationModel information )
+        {
+            infoRepository.CreateInfo(information);
+            return RedirectToAction("GetInfo");
+        }
+
+        [HttpGet]
+        public IActionResult DeleteInfo(int id)
+        {
+            var deletingInfo = infoRepository.GetInformationById(id);
+            infoRepository.DeleteInfo(deletingInfo);
+            return RedirectToAction("GetInfo");
         }
     }
 }

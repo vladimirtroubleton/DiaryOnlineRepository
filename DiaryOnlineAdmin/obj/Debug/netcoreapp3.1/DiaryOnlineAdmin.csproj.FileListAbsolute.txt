@@ -442,3 +442,9 @@ D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\Diary
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.pdb
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Subject\Subjects.cshtml.g.cs
 D:\Projects\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Subject\AddSubject.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.dll
+D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.pdb
+D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Subject\AddSubject.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Subject\Subjects.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateInfo.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnlineAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetInfo.cshtml.g.cs

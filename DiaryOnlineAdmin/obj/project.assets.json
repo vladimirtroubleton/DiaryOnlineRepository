@@ -8589,25 +8589,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\it013\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\vladimirtroubleton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
+      "projectUniqueName": "D:\\Release\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
       "projectName": "DiaryOnlineAdmin",
-      "projectPath": "D:\\Projects\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
-      "packagesPath": "C:\\Users\\it013\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DiaryOnlineRepository\\DiaryOnlineAdmin\\obj\\",
+      "projectPath": "D:\\Release\\DiaryOnlineRepository\\DiaryOnlineAdmin\\DiaryOnlineAdmin.csproj",
+      "packagesPath": "C:\\Users\\vladimirtroubleton\\.nuget\\packages\\",
+      "outputPath": "D:\\Release\\DiaryOnlineRepository\\DiaryOnlineAdmin\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\it013\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vladimirtroubleton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8619,11 +8614,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj": {
-              "projectPath": "D:\\Projects\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj"
+            "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj": {
+              "projectPath": "D:\\Release\\DiaryOnlineRepository\\AuthorizationClassLibrary\\AuthorizationClassLibrary.csproj"
             },
-            "D:\\Projects\\DiaryOnlineRepository\\DiaryClassDataLayer\\DiaryClassDataLayer.csproj": {
-              "projectPath": "D:\\Projects\\DiaryOnlineRepository\\DiaryClassDataLayer\\DiaryClassDataLayer.csproj"
+            "D:\\Release\\DiaryOnlineRepository\\DiaryClassDataLayer\\DiaryClassDataLayer.csproj": {
+              "projectPath": "D:\\Release\\DiaryOnlineRepository\\DiaryClassDataLayer\\DiaryClassDataLayer.csproj"
             }
           }
         }
@@ -8668,7 +8663,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

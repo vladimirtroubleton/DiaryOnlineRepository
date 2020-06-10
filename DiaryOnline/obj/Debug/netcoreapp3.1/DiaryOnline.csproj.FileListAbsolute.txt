@@ -429,10 +429,8 @@ D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\runtimes\wi
 D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\AuthorizationClassLibrary.dll
 D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.dll
-D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\JournalTablesDataLayer.dll
 D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\AuthorizationClassLibrary.pdb
 D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\DiaryClassDataLayer.pdb
-D:\Release\DiaryOnlineRepository\DiaryOnline\bin\Debug\netcoreapp3.1\JournalTablesDataLayer.pdb
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\DiaryOnline.csprojAssemblyReference.cache
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\DiaryOnline.csproj.CoreCompileInputs.cache
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\DiaryOnline.MvcApplicationPartsAssemblyInfo.cache
@@ -452,7 +450,6 @@ D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Classes\UserClass.cshtml.g.cs
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -628,3 +625,11 @@ D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\View
 D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\GetRatings.cshtml.g.cs
 D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\UserRating.cshtml.g.cs
 D:\Projects\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\TeacherRating.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Account\Profile.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Classes\GetTeacherClass.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Classes\TeacherClasses.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\AddRating.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\GetRatings.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\TeacherRating.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Journal\UserRating.cshtml.g.cs
+D:\Release\DiaryOnlineRepository\DiaryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetInfo.cshtml.g.cs

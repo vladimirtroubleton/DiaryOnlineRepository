@@ -12,6 +12,7 @@ namespace DiaryClassDataLayer
         public DbSet<ClassesNavigationModel> ClassesNavigation { get; set; }
         public DbSet<SubjectModel> Subjects { get; set; }
         public DbSet<RatingModel> Ratings { get; set; }
+        public DbSet<InformationModel> Info { get; set; }
 
         public DiaryContext(DbContextOptions<DiaryContext> options) : base(options)
         {

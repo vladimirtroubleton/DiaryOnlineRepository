@@ -50,6 +50,7 @@ namespace DiaryOnlineAdmin
             services.AddScoped<IRolesRepository , RolesRepository>();
             services.AddScoped<IAdministrationUsersUtil , AdministrationUsersUtil>();
             services.AddScoped<ISubjectsRepository , SubjectsRepository>();
+            services.AddScoped<IInfoRepository , InfoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

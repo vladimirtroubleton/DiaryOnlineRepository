@@ -12,6 +12,7 @@ using DiaryOnlineAdmin.Repositories;
 using DiaryOnlineAdmin.ModelBuilders;
 using AuthorizationClassLibrary.AuthViewModels;
 using AuthorizationClassLibrary.AuthUtils;
+using DiaryClassDataLayer.Repositories;
 
 namespace DiaryOnline.Controllers
 {
@@ -21,15 +22,19 @@ namespace DiaryOnline.Controllers
         private readonly IUsersRepository usersRepository;
         private readonly IUsersModelBuilder usersModelBuilder;
         private ICurrentUserUtil currentUtil;
+        private readonly IInfoRepository infoRepository;
 
-        private UserViewModel currentUser;
-
-        public HomeController(IUsersRepository usersRepository, IUsersModelBuilder usersModelBuilder, ICurrentUserUtil currentUtil)
+        public HomeController(IUsersRepository usersRepository, IUsersModelBuilder usersModelBuilder, ICurrentUserUtil currentUtil, IInfoRepository infoRepository)
         {
             this.usersRepository = usersRepository;
             this.usersModelBuilder = usersModelBuilder;
             this.currentUtil = currentUtil;
+            this.infoRepository = infoRepository;
         }
+
+         private UserViewModel currentUser;
+
+
 
         public async Task<IActionResult> Index()
         {
@@ -39,11 +44,15 @@ namespace DiaryOnline.Controllers
             return View();
         }
 
-       
 
-      
 
-      
+        [HttpGet]
+        public IActionResult GetInfo()
+        {
+            return View(infoRepository.GetInformations());
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
